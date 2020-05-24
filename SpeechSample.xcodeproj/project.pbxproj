@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57051812247A26820022319B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57051811247A26820022319B /* Alert.swift */; };
+		57051814247A2F3C0022319B /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57051813247A2F3C0022319B /* SpeechRecognizer.swift */; };
 		578BC6792478C8A500464A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578BC6782478C8A500464A20 /* AppDelegate.swift */; };
 		578BC67B2478C8A500464A20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578BC67A2478C8A500464A20 /* SceneDelegate.swift */; };
 		578BC67D2478C8A500464A20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578BC67C2478C8A500464A20 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57051811247A26820022319B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		57051813247A2F3C0022319B /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		578BC6752478C8A500464A20 /* SpeechSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578BC6782478C8A500464A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578BC67A2478C8A500464A20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57051810247986AB0022319B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				57051811247A26820022319B /* Alert.swift */,
+				57051813247A2F3C0022319B /* SpeechRecognizer.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		578BC66C2478C8A500464A20 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		578BC6772478C8A500464A20 /* SpeechSample */ = {
 			isa = PBXGroup;
 			children = (
+				57051810247986AB0022319B /* Util */,
 				578BC6782478C8A500464A20 /* AppDelegate.swift */,
 				578BC67A2478C8A500464A20 /* SceneDelegate.swift */,
 				578BC67C2478C8A500464A20 /* ViewController.swift */,
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57051814247A2F3C0022319B /* SpeechRecognizer.swift in Sources */,
 				578BC67D2478C8A500464A20 /* ViewController.swift in Sources */,
 				578BC6792478C8A500464A20 /* AppDelegate.swift in Sources */,
+				57051812247A26820022319B /* Alert.swift in Sources */,
 				578BC67B2478C8A500464A20 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
